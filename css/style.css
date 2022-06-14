@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* para titulos de cada pagina; */
+.titulo {
+    color: rgb(36, 1, 68);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*fondo de todas las paginas*/
+.body {
+    background-image: url(/imagenes/fondo2.png);
+    background-size: 2000px
+}
+
+/* main de index */
+.main {
+    max-width: 850px;
+    margin: 40px auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* imagen mia; */
+.imagenOliver img {
+    display: inline-block;
+    max-width: 425px;
+
+}
+
+/* texto biografico; */
+.tituloBiografia {
+    display: inline-block;
+    max-width: 400px;
+}
+
+/* imagen mia; */
+.imagenOliver {
+    display: inline-block;
+}
+
+/* logo s/F; */
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
+
+/* seccion nav ubic. logo */
+.navbar {
+    padding: 1.2rem;
+    align-items: center;
+}
+
+/* seccion header */
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    background-color: rgba(255, 255, 255, 0.315);
+
+}
+
+/* seccion nav */
+nav {
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column-reverse;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+ul :hover {
+    background-color: rgb(39, 199, 199);
+}
+
+
+li a {
+    text-decoration: none;
+    color: rgb(36, 1, 68);
+    align-items: center;
+    margin: 15px;
+}
+
+/* tex box quien soy*/
+.textBox {
+    width: 1000px;
+    background-color: rgba(203, 203, 174, 0.306);
+    padding: 60px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.671);
+    font-size: 21px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* tex box quien soy*/
+section h3 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+/* pie de pagina*/
+.pie_Pagina {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.434);
+}
+
+.piePagina {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.434);
+}
+
+
+/*portafolio*/
+.miPortafolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Portafolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.estiloPorta {
+    margin: 2rem;
+    width: 450px;
+    box-shadow: 5px 10px 40px rgba(0, 0, 0, 0.671);
+}
+
+/*formulario*/
+
+form h3 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.formBox {
+    width: 500px;
+    background-color: rgba(203, 203, 174, 0.306);
+    padding: 30px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 39px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.671);
+}
+
+.formImputs {
+    width: 100%;
+    background-color: rgba(79, 79, 67, 0.138);
+    padding: auto;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.buton {
+    width: 100%;
+    padding: 16px;
+    background-color: rgb(203, 203, 174);
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.selecPais {
+    width: 100%;
+    background-color: rgba(79, 79, 67, 0.138);
+    padding: auto;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+/*Promos*/
+.bloquePromo {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.tituloPromo {
+    color: rgb(36, 1, 68);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    width: 1000px;
+    background-color: rgba(203, 203, 174, 0.306);
+    padding: 60px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.671);
+    font-size: 21px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.parrafoPromo {
+    width: 1000px;
+    background-color: rgba(203, 203, 174, 0.306);
+    padding: 60px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.671);
+    font-size: 21px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
