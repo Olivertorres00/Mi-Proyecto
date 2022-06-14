@@ -39,6 +39,9 @@
 .imagenOliver {
     display: inline-block;
 }
+.imagenOliver:hover{
+    transform:scale(1.1);
+}
 
 /* logo s/F; */
 .logo {
@@ -59,8 +62,10 @@ header {
     width: 100%;
     align-items: center;
     justify-content: right;
-    background-color: rgba(255, 255, 255, 0.315);
-
+    background-color: rgb(214, 145, 203);
+    background-image: linear-gradient(to right, rgb(241, 211, 211), white );
+    /* seccion animacion */
+    
 }
 
 /* seccion nav */
@@ -166,6 +171,9 @@ form h3 {
     margin-bottom: 39px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.671);
+}
+.formBox:hover¨{
+    background-image: linear-gradient(to right, rgb(241, 211, 211), white ); ;
 }
 
 .formImputs {
